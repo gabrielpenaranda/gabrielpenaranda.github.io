@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gabriel Peñaranda</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/app.css" media="screen,projection" />
+</head>
+
+<body>
+    <header>
+        <hgroup>
+            <h1 class="oculto">Gabriel Peñaranda Web & Mobile Development</h1>
+        </hgroup>
+        <div class="navbar-fixed">
+            <nav class="white">
+                <div class="nav-wrapper z-depth-3">
+                    <a href="http://gabrielpenaranda.github.io" class="brand-logo">
+                        <img src="img/logo.png" alt="Gabriel Peñaranda" class="responsive-img" width="300" height="175">
+                    </a>
+                    <a href="#" data-target="mobile" class="sidenav-trigger icon-orange"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="sass.html">Proyectos</a></li>
+                        <li><a href="badges.html">Redes</a></li>
+                        <li><a href="collapsible.html">Tecnologías</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile">
+            <li><a href="sass.html">Proyectos</a></li>
+            <li><a href="badges.html">Redes</a></li>
+            <li><a href="collapsible.html">Tecnologías</a></li>
+        </ul>
+    </header>
+    <div id="content">
+        <div class="parallax-container">
+            <div class="parallax"><img class="responsive-img" src="img/img1.png" alt=""></div>
+        </div>
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header">Proyectos</h2>
+                <p class="grey-text text-darken-3 lighten-3">Sección para presentar todos mis proyectos</p>
+            </div>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax"><img class="responsive-img" src="img/img2.jpg" alt=""></div>
+        </div>
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header">Redes</h2>
+                <p class="grey-text text-darken-3 lighten-3">Sección de redes sociales</p>
+            </div>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax"><img class="responsive-img" src="img/img3.jpeg" alt=""></div>
+        </div>
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header">Tecnologías</h2>
+                <p class="grey-text text-darken-3 lighten-3">Todas las tecnologias con las que trabajo</p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer deep-orange darken-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Gabriel Peñaranda G.</h5>
+                    <p class="grey-text text-lighten-4">Barquisimeto-Venezuela</p>
+                    <p class="grey-text text-lighten-4">Barquisimeto-Venezuela</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+        });
+        $(document).ready(function() {
+            $('.parallax').parallax();
+        });
+    </script>
+</body>
+
+</html>

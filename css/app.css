@@ -1,0 +1,30 @@
+.oculto {
+    /* text-indent: 100%;
+    white-space: nowrap;
+    overflow:hidden; */
+    position: absolute !important;
+    /* clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ */
+    clip: rect(1px, 1px, 1px, 1px);
+    color: #fff;
+    font-size: 1rem !important;
+}
+
+/* .oculto {
+    text-indent:-666em;
+    overflow:hidden;
+} */
+
+li a {
+    color: #ff3d00 !important;
+}
+
+li a:hover {
+     /* background-color: rgba(230,81,0,0.8) !important; */
+     background-color: #ff3d00 !important;
+     color: #ffffff !important;
+     /* font-weight: bold; */
+ }
+
+ .icon-orange {
+     color:  #ff3d00 !important;
+ }
