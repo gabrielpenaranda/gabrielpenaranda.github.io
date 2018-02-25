@@ -1,3 +1,38 @@
+@font-face {
+font-family: "Exo-Medium";
+src: url(../fonts/Exo/Exo-Medium.ttf) format('truetype');
+}
+
+@font-face {
+font-family: "Exo-Regular";
+src: url(../fonts/Exo/Exo-Regular.ttf);
+}
+
+@font-face {
+font-family: "Exo-SemiBold";
+src: url(../fonts/Exo/Exo-SemiBold.ttf);
+}
+
+@font-face {
+font-family: "Exo-Thin";
+src: url(../fonts/Exo/Exo-Thin.ttf);
+}
+
+@font-face {
+font-family: "Philosopher-Bold";
+src: url(../fonts/Philosopher/Philosopher-Bold.ttf) format('truetype');
+}
+
+@font-face {
+font-family: "Philosopher-Regular";
+src: url(../fonts/Philosopher/Philosopher-Regular.ttf) format('truetype');
+}
+
+@font-face {
+font-family: "Philosopher-Italic";
+src: url(../fonts/Philosopher/Philosopher-Italic.ttf) format('truetype');
+}
+
 .oculto {
     /* text-indent: 100%;
     white-space: nowrap;
@@ -15,6 +50,7 @@
 } */
 
 li a {
+    font-family: "Exo-Medium";
     color: #ff3d00 !important;
 }
 
@@ -28,3 +64,57 @@ li a:hover {
  .icon-orange {
      color:  #ff3d00 !important;
  }
+
+ .font-exo-medium {
+     font-family: "Exo-Medium";
+ }
+
+ .font-exo-semibold {
+     font-family: "Exo-SemiBold";
+ }
+
+ .font-exo-thin {
+     font-family: "Exo-Thin";
+ }
+
+ .font-exo-regular {
+     font-family: "Exo-Regular";
+ }
+
+ .font-philosopher-bold {
+     font-family: "Philosopher-Bold";
+ }
+
+ .font-philosopher-regular {
+     font-family: "Philosopher-Regular";
+ }
+
+ .font-philosopher-italic {
+     font-family: "Philosopher-Italic";
+ }
+
+.centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 30%; */
+}
+
+.vertical {
+    vertical-align: middle;
+}
+
+.frame {
+    height: 150px;      /* equals max image height */
+    width: 160px;
+    border: 0px;
+    white-space: nowrap;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
