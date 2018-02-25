@@ -103,22 +103,3 @@ li a:hover {
     margin-right: auto;
     /* width: 30%; */
 }
-
-.vertical {
-    vertical-align: middle;
-}
-
-.frame {
-    height: 150px;      /* equals max image height */
-    width: 160px;
-    border: 0px;
-    white-space: nowrap;
-    text-align: center;
-    margin: 1em 0;
-}
-
-.helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
