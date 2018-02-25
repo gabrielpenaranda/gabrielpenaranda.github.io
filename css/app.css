@@ -61,6 +61,10 @@ li a:hover {
      /* font-weight: bold; */
  }
 
+.button-blue {
+    background-color: #00509C;
+}
+
  .icon-orange {
      color:  #ff3d00 !important;
  }
